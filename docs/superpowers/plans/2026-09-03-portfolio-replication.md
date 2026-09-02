@@ -64,13 +64,19 @@ git commit -m "feat: scaffold Next.js app with Tailwind CSS and ThemeProvider"
 - [ ] **Step 1: Define TypeScript interfaces in src/types/portfolio.ts**
 Define `PersonalData`, `ProjectItem`, `ExperienceItem`, `SkillItem`, `AchievementItem`, and `FocusAreas`.
 
-- [ ] **Step 2: Implement src/data/portfolio.ts with Krish's exact bio**
+- [ ] **Step 2: Implement src/data/portfolio.ts with Krish's exact bio & FundingWala**
 Pre-populate:
   - Name: "Krish Srivastava"
   - Bio 1: "I’m Krish Srivastava - a Design Engineer & Blockchain known for pixel-perfect execution and an obsessive attention to detail."
   - Bio 2: "I build products end to end with React, Next.js, TypeScript and Node.js - from schema and API design through to the interface."
   - Bio 3: "On the backend I work with Express, MongoDB, PostgreSQL and Supabase, with a bias toward strong validation, correctness and predictable failure handling."
-  - Provide structured placeholders and template comments for projects, experience, skills, and achievements.
+  - Project 1 (Featured): **FundingWala**
+    - Description: "A production-grade decentralized crowdfunding dApp built on Stellar Testnet using Soroban smart contracts. Donors connect Stellar wallets (Freighter, Albedo, xBull) to fund campaigns in XLM with on-chain event streams."
+    - Live URL: `https://fundingwala01.vercel.app/`
+    - GitHub URL: `https://github.com/Thanos0s/FundingWala_`
+    - Tags: Stellar, Soroban, React, Tailwind CSS, Web3
+    - Featured: true
+  - Provide structured placeholders and template comments for additional projects, experience, skills, and achievements.
 
 - [ ] **Step 3: Verify TypeScript typing and export**
 Ensure `portfolio.ts` strictly satisfies `PortfolioData`.
