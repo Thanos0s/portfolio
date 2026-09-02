@@ -3,7 +3,7 @@ import { PortfolioData } from '@/types/portfolio';
 export const portfolioData: PortfolioData = {
   personal: {
     name: 'Krish Srivastava',
-    handle: 'krishsrivastava',
+    handle: 'Thanos0s',
     jobTitle: 'Design Engineer & Blockchain Developer',
     rotatingRoles: [
       'Design Engineer',
@@ -38,7 +38,7 @@ export const portfolioData: PortfolioData = {
     },
     avatars: {
       stylized: '/avatar-demo.svg',
-      photo: '/avatar-real.svg',
+      photo: 'https://avatars.githubusercontent.com/u/181267950?v=4',
     },
   },
 
@@ -71,19 +71,6 @@ export const portfolioData: PortfolioData = {
       description:
         'Built full-stack web applications, schema design, and microservices with Next.js, Node.js, and PostgreSQL.',
     },
-    /*
-    {
-      id: 'exp-3',
-      company: 'Company Name',
-      role: 'Role Title',
-      period: 'Month Year - Month Year',
-      type: 'Remote • Full-time',
-      duration: '6 mos',
-      logo: '💼',
-      link: 'https://company.com',
-      description: 'Key achievements or responsibilities.',
-    },
-    */
   ],
 
   /* -------------------------------------------------------------
@@ -109,35 +96,50 @@ export const portfolioData: PortfolioData = {
       ],
     },
     {
-      id: 'project-placeholder-2',
-      title: 'NextGen DeFi Dashboard',
+      id: 'medichain',
+      title: 'MediChain',
       description:
-        'Real-time analytics and portfolio tracker for EVM and Stellar chains with low-latency event listeners, transaction graphing, and dark mode UI.',
+        'Decentralized electronic healthcare record management with cryptographically verified access control, on-chain patient consent, and tamper-proof medical audit logs.',
       image: '/projects/placeholder-2.svg',
-      liveUrl: 'https://fundingwala01.vercel.app/',
-      githubUrl: 'https://github.com/Thanos0s',
+      liveUrl: 'https://github.com/Thanos0s/medichain',
+      githubUrl: 'https://github.com/Thanos0s/medichain',
       featured: true,
       tags: [
-        { name: 'TypeScript', brandColor: '#3178C6' },
-        { name: 'Next.js', brandColor: '#000000' },
-        { name: 'TailwindCSS', brandColor: '#06B6D4' },
-        { name: 'PostgreSQL', brandColor: '#4169E1' },
+        { name: 'Solidity', brandColor: '#363636' },
+        { name: 'Web3', brandColor: '#F59E0B' },
+        { name: 'React', brandColor: '#61DAFB' },
+        { name: 'Node.js', brandColor: '#5FA04E' },
       ],
     },
     {
-      id: 'project-placeholder-3',
-      title: 'Decentralized Identity Protocol',
+      id: 'gist-ai-agent',
+      title: 'Gist AI Research Agent',
       description:
-        'Self-sovereign identity issuance with zero-knowledge verifiable credentials and lightweight browser-based verification.',
+        'Autonomous multi-source research agent aggregating and synthesizing research documents with retrieval pipelines, structured citation graphs, and responsive UI.',
       image: '/projects/placeholder-3.svg',
-      liveUrl: 'https://fundingwala01.vercel.app/',
-      githubUrl: 'https://github.com/Thanos0s',
-      featured: false,
+      liveUrl: 'https://github.com/Thanos0s/Gist-AI-Research-Agen2',
+      githubUrl: 'https://github.com/Thanos0s/Gist-AI-Research-Agen2',
+      featured: true,
       tags: [
         { name: 'TypeScript', brandColor: '#3178C6' },
-        { name: 'Node.js', brandColor: '#5FA04E' },
-        { name: 'Express.js', brandColor: '#000000' },
-        { name: 'MongoDB', brandColor: '#47A248' },
+        { name: 'AI Agents', brandColor: '#10B981' },
+        { name: 'Next.js', brandColor: '#000000' },
+        { name: 'TailwindCSS', brandColor: '#06B6D4' },
+      ],
+    },
+    {
+      id: 'tryna-learn-solidity',
+      title: 'Smart Contract Architecture Suite',
+      description:
+        'Foundational EVM smart contracts repository implementing standard ERC tokens, custom staking logics, and reentrancy-guarded escrow mechanics.',
+      image: '/projects/placeholder-2.svg',
+      liveUrl: 'https://github.com/Thanos0s/Tryna_learn_solidty',
+      githubUrl: 'https://github.com/Thanos0s/Tryna_learn_solidty',
+      featured: false,
+      tags: [
+        { name: 'Solidity', brandColor: '#363636' },
+        { name: 'Smart Contracts', brandColor: '#F59E0B' },
+        { name: 'EVM', brandColor: '#627EEA' },
       ],
     },
   ],
@@ -204,10 +206,10 @@ export const portfolioData: PortfolioData = {
     },
     {
       id: 'ach-3',
-      title: 'Open Source Contributor & Product Designer',
-      date: '2024',
+      title: 'Pull Shark & YOLO Badges on GitHub',
+      date: '2024 - 2025',
       description:
-        'Designed and developed pixel-perfect component libraries and open-source developer tooling.',
+        'Active open-source contributor across multi-repo organizations with verified merged pull requests and community engagement.',
     },
   ],
 

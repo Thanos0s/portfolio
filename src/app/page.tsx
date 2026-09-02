@@ -137,33 +137,26 @@ export default function HomePage() {
           </h2>
         </div>
         <div className="relative px-4 py-5">
-          <div className="border-border bg-muted/20 flex flex-col items-center justify-center rounded-lg border p-6 text-center">
+          <div className="border-border bg-muted/20 flex flex-col items-center justify-center rounded-lg border p-4 sm:p-5 text-center overflow-hidden">
             <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground mb-3">
               <span className="size-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>Active GitHub Contributions &amp; Smart Contract Commits</span>
+              <span>Live GitHub Contributions &amp; Commits</span>
             </div>
-            <div className="flex flex-wrap items-center justify-center gap-1 max-w-md opacity-80">
-              {Array.from({ length: 48 }).map((_, i) => (
-                <span
-                  key={i}
-                  className={`size-2.5 rounded-xs ${
-                    i % 7 === 0 || i % 11 === 0
-                      ? 'bg-emerald-500/80'
-                      : i % 3 === 0
-                      ? 'bg-emerald-400/50'
-                      : 'bg-neutral-300 dark:bg-neutral-800'
-                  }`}
-                />
-              ))}
+            <div className="w-full flex justify-center overflow-x-auto py-1">
+              <img
+                src="https://raw.githubusercontent.com/Thanos0s/Thanos0s/output/github-contribution-grid-snake.svg"
+                alt="Thanos0s GitHub contribution snake"
+                className="max-w-full h-auto rounded select-none filter contrast-125"
+              />
             </div>
             <a
               href={personal.contact.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
               onClick={playClick}
-              className="text-muted-foreground hover:text-foreground text-xs font-mono mt-4 underline underline-offset-4"
+              className="text-muted-foreground hover:text-foreground text-xs font-mono mt-3.5 underline underline-offset-4"
             >
-              View on github.com/{personal.contact.githubUrl.split('/').pop()} ↗
+              View profile on github.com/{personal.contact.githubUrl.split('/').pop()} ↗
             </a>
           </div>
         </div>
