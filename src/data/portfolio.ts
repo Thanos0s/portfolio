@@ -27,7 +27,7 @@ export const portfolioData: PortfolioData = {
       },
     },
     contact: {
-      email: 'krishsrivastava.dev@gmail.com', // Replace with your email
+      email: 'krishsrivastava00@gmail.com',
       phone: '+91 99999 99999', // Replace with your phone number if desired
       calendlyUrl: 'https://calendly.com/krishsrivastava', // Replace with your Calendly link
       xUrl: 'https://x.com/krishsrivastava', // Replace with your X (Twitter) handle
