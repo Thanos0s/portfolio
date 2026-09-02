@@ -83,7 +83,7 @@ export const portfolioData: PortfolioData = {
       title: 'FundingWala',
       description:
         'A production-grade, retro-styled decentralized crowdfunding dApp built on the Stellar Testnet using Soroban smart contracts. Donors connect Stellar wallets (Freighter, Albedo, xBull) to fund campaigns in XLM with on-chain event streams.',
-      image: '/projects/fundingwala.svg',
+      image: '/projects/fundingwala.png',
       liveUrl: 'https://fundingwala01.vercel.app/',
       githubUrl: 'https://github.com/Thanos0s/FundingWala_',
       featured: true,
