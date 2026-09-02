@@ -37,7 +37,7 @@ export const portfolioData: PortfolioData = {
       location: 'India',
     },
     avatars: {
-      stylized: '/avatar-demo.svg',
+      stylized: '/avatar-stylized.png',
       photo: 'https://avatars.githubusercontent.com/u/181267950?v=4',
     },
   },
