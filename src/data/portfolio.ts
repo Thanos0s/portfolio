@@ -32,7 +32,7 @@ export const portfolioData: PortfolioData = {
       calendlyUrl: 'https://calendly.com/krishsrivastava', // Replace with your Calendly link
       xUrl: 'https://x.com/krishsrivastava', // Replace with your X (Twitter) handle
       githubUrl: 'https://github.com/Thanos0s', // Your GitHub profile
-      linkedinUrl: 'https://linkedin.com/in/krish-srivastava', // Replace with your LinkedIn URL
+      linkedinUrl: 'https://www.linkedin.com/in/krish-srivastava-6468103a8/', // LinkedIn profile
       resumeUrl: 'https://drive.google.com/', // Replace with your Google Drive resume link
       location: 'India',
     },

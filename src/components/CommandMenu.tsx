@@ -183,6 +183,15 @@ export function CommandMenu({ isOpen, onClose }: CommandMenuProps) {
             onClose();
           },
         },
+        {
+          label: 'View LinkedIn Profile',
+          icon: <ExternalLink className="size-4" />,
+          action: () => {
+            playClick();
+            window.open(portfolioData.personal.contact.linkedinUrl, '_blank');
+            onClose();
+          },
+        },
       ],
     },
   ];
