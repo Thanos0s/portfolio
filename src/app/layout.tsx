@@ -8,7 +8,7 @@ import { portfolioData } from '@/data/portfolio';
 
 export const metadata: Metadata = {
   title: `${portfolioData.personal.name} | ${portfolioData.personal.jobTitle}`,
-  description: `${portfolioData.personal.name} is a ${portfolioData.personal.jobTitle}, known for pixel-perfect execution and an obsessive attention to detail.`,
+  description: portfolioData.personal.about.intro,
   openGraph: {
     title: `${portfolioData.personal.name} | ${portfolioData.personal.jobTitle}`,
     description: portfolioData.personal.about.intro,

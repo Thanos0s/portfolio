@@ -13,7 +13,7 @@ export const portfolioData: PortfolioData = {
     ],
     about: {
       intro:
-        'I’m Krish Srivastava - a Design Engineer & Blockchain known for pixel-perfect execution and an obsessive attention to detail.',
+        'I’m Krish Srivastava — a Design Engineer & Web3 Developer crafting intuitive, high-performance applications from smart contracts down to the final pixel.',
       stack: {
         prefix: 'I build products end to end with ',
         highlighted: ['React, Next.js, TypeScript and Node.js'],
