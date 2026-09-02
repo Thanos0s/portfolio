@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#18181b" rx="20"/>
+  <!-- Retro pixel / minimalist stylized avatar -->
+  <circle cx="100" cy="85" r="45" fill="#3b82f6"/>
+  <!-- Hair / headset / glasses -->
+  <rect x="68" y="70" width="28" height="20" rx="6" fill="#09090b"/>
+  <rect x="104" y="70" width="28" height="20" rx="6" fill="#09090b"/>
+  <rect x="96" y="76" width="8" height="6" fill="#09090b"/>
+  <!-- Smile -->
+  <path d="M 85 105 Q 100 118 115 105" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Body / Hoodie -->
+  <path d="M 50 175 C 50 135, 150 135, 150 175 Z" fill="#27272a"/>
+  <path d="M 85 145 L 100 165 L 115 145" stroke="#3b82f6" stroke-width="3" fill="none"/>
+  <!-- Blockchain node badge -->
+  <circle cx="150" cy="50" r="12" fill="#7c3aed"/>
+  <path d="M 145 50 L 155 50 M 150 45 L 150 55" stroke="#ffffff" stroke-width="2"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="p3Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p3Bg)" rx="12" />
+  
+  <rect x="40" y="40" width="720" height="40" rx="6" fill="#065f46" />
+  <circle cx="65" cy="60" r="5" fill="#ef4444" />
+  <circle cx="85" cy="60" r="5" fill="#f59e0b" />
+  <circle cx="105" cy="60" r="5" fill="#10b981" />
+  <text x="400" y="65" fill="#a7f3d0" font-family="'JetBrains Mono', monospace" font-size="12" text-anchor="middle">identity-protocol.net</text>
+
+  <g transform="translate(40, 95)">
+    <rect width="720" height="300" rx="8" fill="#042f2e" stroke="#065f46" stroke-width="1" />
+    <rect x="50" y="40" width="160" height="26" rx="4" fill="#10b981" opacity="0.2" stroke="#10b981" stroke-width="1" />
+    <text x="130" y="57" fill="#6ee7b7" font-family="'Silkscreen', monospace" font-size="11" text-anchor="middle">WEB3 IDENTITY</text>
+    <text x="50" y="115" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="bold" font-size="32">Decentralized Identity Protocol</text>
+    <text x="50" y="145" fill="#6ee7b7" font-family="'JetBrains Mono', monospace" font-size="15">Zero-Knowledge Verifiable Credentials</text>
+    <text x="50" y="185" fill="#a7f3d0" font-family="system-ui, sans-serif" font-size="14">Built with Node.js, Express, and MongoDB with client-side cryptographic proofs.</text>
+  </g>
+</svg>

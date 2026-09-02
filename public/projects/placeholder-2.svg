@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="p2Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0a09" />
+      <stop offset="100%" stop-color="#1c1917" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p2Bg)" rx="12" />
+  
+  <rect x="40" y="40" width="720" height="40" rx="6" fill="#292524" />
+  <circle cx="65" cy="60" r="5" fill="#ef4444" />
+  <circle cx="85" cy="60" r="5" fill="#f59e0b" />
+  <circle cx="105" cy="60" r="5" fill="#10b981" />
+  <text x="400" y="65" fill="#a8a29e" font-family="'JetBrains Mono', monospace" font-size="12" text-anchor="middle">defi-dashboard.io</text>
+
+  <g transform="translate(40, 95)">
+    <rect width="720" height="300" rx="8" fill="#141210" stroke="#292524" stroke-width="1" />
+    <rect x="50" y="40" width="150" height="26" rx="4" fill="#3b82f6" opacity="0.2" stroke="#3b82f6" stroke-width="1" />
+    <text x="125" y="57" fill="#60a5fa" font-family="'Silkscreen', monospace" font-size="11" text-anchor="middle">DEFI TRACKER</text>
+    <text x="50" y="115" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="bold" font-size="32">NextGen DeFi Dashboard</text>
+    <text x="50" y="145" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="15">Multi-chain Liquidity &amp; Transaction Analytics</text>
+    <text x="50" y="185" fill="#78716c" font-family="system-ui, sans-serif" font-size="14">Built with TypeScript, Next.js, and PostgreSQL for instant portfolio intelligence.</text>
+  </g>
+</svg>
