@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="veilBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070510" />
+      <stop offset="50%" stop-color="#120c24" />
+      <stop offset="100%" stop-color="#06030c" />
+    </linearGradient>
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="emeraldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#veilBg)" rx="12" />
+
+  <!-- Subtle Cyberpunk Geometric Grid -->
+  <g opacity="0.12" stroke="#8b5cf6" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75" />
+    <line x1="0" y1="150" x2="800" y2="150" />
+    <line x1="0" y1="225" x2="800" y2="225" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="375" x2="800" y2="375" />
+    <line x1="160" y1="0" x2="160" y2="450" />
+    <line x1="320" y1="0" x2="320" y2="450" />
+    <line x1="480" y1="0" x2="480" y2="450" />
+    <line x1="640" y1="0" x2="640" y2="450" />
+  </g>
+
+  <!-- Retro Frame Header -->
+  <rect x="40" y="40" width="720" height="40" rx="6" fill="#1b1433" stroke="#2e2254" stroke-width="1" />
+  <circle cx="65" cy="60" r="5" fill="#ef4444" />
+  <circle cx="85" cy="60" r="5" fill="#f59e0b" />
+  <circle cx="105" cy="60" r="5" fill="#10b981" />
+  <text x="400" y="65" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="12" text-anchor="middle">veilbid-kappa.vercel.app</text>
+
+  <!-- Project Banner Center -->
+  <g transform="translate(40, 95)">
+    <rect width="720" height="300" rx="8" fill="#0f0a1c" stroke="#2e2254" stroke-width="1" />
+
+    <!-- Badges Top -->
+    <g transform="translate(50, 40)">
+      <rect width="170" height="26" rx="4" fill="#8b5cf6" opacity="0.2" stroke="#8b5cf6" stroke-width="1" />
+      <text x="85" y="17" fill="#c4b5fd" font-family="'Silkscreen', monospace" font-size="11" text-anchor="middle">MIDNIGHT NETWORK</text>
+    </g>
+
+    <g transform="translate(230, 40)">
+      <rect width="120" height="26" rx="4" fill="#10b981" opacity="0.2" stroke="#10b981" stroke-width="1" />
+      <text x="60" y="17" fill="#6ee7b7" font-family="'Silkscreen', monospace" font-size="11" text-anchor="middle">ZK PROOFS</text>
+    </g>
+
+    <!-- Title and Mask Icon -->
+    <text x="50" y="118" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="34">🎭 VeilBid</text>
+    <text x="50" y="148" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="15">Privacy-First NFT Marketplace with Sealed ZK Bids</text>
+
+    <!-- Tagline -->
+    <text x="50" y="186" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="14">Bid in the shadows. Win in the light. Built with Compact smart contracts on Midnight.</text>
+
+    <!-- Feature Pillars -->
+    <g transform="translate(50, 220)">
+      <rect width="180" height="44" rx="6" fill="#17102b" stroke="#3b2d66" stroke-width="1" />
+      <text x="15" y="18" fill="#9ca3af" font-family="sans-serif" font-size="10">PRIVACY PROTOCOL</text>
+      <text x="15" y="34" fill="#f3e8ff" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Sealed ZK Witness</text>
+    </g>
+
+    <g transform="translate(245, 220)">
+      <rect width="180" height="44" rx="6" fill="#17102b" stroke="#3b2d66" stroke-width="1" />
+      <text x="15" y="18" fill="#9ca3af" font-family="sans-serif" font-size="10">SMART CONTRACT</text>
+      <text x="15" y="34" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Compact Language</text>
+    </g>
+
+    <g transform="translate(440, 220)">
+      <rect width="180" height="44" rx="6" fill="#17102b" stroke="#3b2d66" stroke-width="1" />
+      <text x="15" y="18" fill="#9ca3af" font-family="sans-serif" font-size="10">WALLET SUPPORT</text>
+      <text x="15" y="34" fill="#6ee7b7" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">1AM Wallet (Preprod)</text>
+    </g>
+  </g>
+</svg>

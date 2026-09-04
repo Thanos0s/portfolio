@@ -79,6 +79,23 @@ export const portfolioData: PortfolioData = {
   ------------------------------------------------------------- */
   projects: [
     {
+      id: 'veilbid',
+      title: 'VeilBid',
+      description:
+        'A privacy-first NFT marketplace built on the Midnight Network where bids, bidder identities, and auction strategies remain fully private — verified with Zero-Knowledge proofs and Compact smart contracts.',
+      image: '/projects/veilbid.svg',
+      liveUrl: 'https://veilbid-kappa.vercel.app/',
+      githubUrl: 'https://github.com/Thanos0s/VeilBid_Midnight',
+      featured: true,
+      tags: [
+        { name: 'Midnight Network', brandColor: '#8B5CF6' },
+        { name: 'ZK Proofs', brandColor: '#10B981' },
+        { name: 'Compact', brandColor: '#C084FC' },
+        { name: 'React', brandColor: '#61DAFB' },
+        { name: 'Web3', brandColor: '#F59E0B' },
+      ],
+    },
+    {
       id: 'fundingwala',
       title: 'FundingWala',
       description:
@@ -164,6 +181,8 @@ export const portfolioData: PortfolioData = {
     { name: 'REST APIs', category: 'backend', brandColor: '#7C3AED', iconKey: 'api' },
 
     // Blockchain / Web3
+    { name: 'Midnight Network', category: 'blockchain', brandColor: '#8B5CF6', iconKey: 'stellar' },
+    { name: 'ZK Proofs / Compact', category: 'blockchain', brandColor: '#10B981', iconKey: 'contract' },
     { name: 'Stellar / Soroban', category: 'blockchain', brandColor: '#7C3AED', iconKey: 'stellar' },
     { name: 'Smart Contracts', category: 'blockchain', brandColor: '#F59E0B', iconKey: 'contract' },
     { name: 'Web3.js / Ethers', category: 'blockchain', brandColor: '#3B82F6', iconKey: 'web3' },
@@ -190,6 +209,13 @@ export const portfolioData: PortfolioData = {
      Hackathon wins, pitch competitions, and milestones.
   ------------------------------------------------------------- */
   achievements: [
+    {
+      id: 'ach-veilbid',
+      title: 'Built & Deployed VeilBid — Privacy NFT Marketplace on Midnight',
+      date: '2025 - 2026',
+      description:
+        'Engineered sealed-bid auctions with Zero-Knowledge witness validation, Compact smart contracts, and dual-network deployment across Midnight Preprod & Preview.',
+    },
     {
       id: 'ach-1',
       title: 'Built & Deployed FundingWala on Stellar Testnet',
