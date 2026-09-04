@@ -83,7 +83,7 @@ export const portfolioData: PortfolioData = {
       title: 'VeilBid',
       description:
         'A privacy-first NFT marketplace built on the Midnight Network where bids, bidder identities, and auction strategies remain fully private — verified with Zero-Knowledge proofs and Compact smart contracts.',
-      image: '/projects/veilbid.svg',
+      image: '/projects/veilbid.png',
       liveUrl: 'https://veilbid-kappa.vercel.app/',
       githubUrl: 'https://github.com/Thanos0s/VeilBid_Midnight',
       featured: true,
